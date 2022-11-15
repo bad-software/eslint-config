@@ -1,12 +1,12 @@
 {
   "name": "@bad-software/eslint-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "repository": "https://github.com/bad-software/eslint-config",
   "author": "soulofmischief",
   "license": "MIT",
   "publishConfig": {
-   "@YOUR-USERNAME:registry": "https://npm.pkg.github.com"
+    "@bad-software:registry": "https://npm.pkg.github.com"
   },
   "peerDependencies": {
     "eslint": ">= 8",
