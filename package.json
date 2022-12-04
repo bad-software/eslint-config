@@ -1,15 +1,16 @@
 {
   "name": "@bad-software/eslint-config",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "main": "index.js",
   "repository": "https://github.com/bad-software/eslint-config",
-  "author": "soulofmischief",
+  "author": "soulofmischief <30357883+soulofmischief@users.noreply.github.com>",
   "license": "MIT",
   "publishConfig": {
     "@bad-software:registry": "https://npm.pkg.github.com"
   },
   "peerDependencies": {
     "eslint": ">= 8",
+    "eslint-plugin-jsdoc": "*",
     "eslint-plugin-promise": "*"
   }
 }

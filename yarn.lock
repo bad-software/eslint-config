@@ -9,6 +9,7 @@ __metadata:
   resolution: "@bad-software/eslint-config@workspace:."
   peerDependencies:
     eslint: ">= 8"
+    eslint-plugin-jsdoc: "*"
     eslint-plugin-promise: "*"
   languageName: unknown
   linkType: soft
