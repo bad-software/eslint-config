@@ -11,6 +11,8 @@ module.exports = {
     mocha: true
   },
 
+  ignorePatterns: [ '**/node_modules/**', '**/old_packages/**' ],
+
   parserOptions: {
     ecmaFeatures: { jsx: true },
     ecmaVersion: 2022,
@@ -39,6 +41,7 @@ module.exports = {
       {
         code: 79,
         comments: 79,
+        ignorePattern: 'import.*',
         ignoreUrls: true
       }
     ],
@@ -48,6 +51,16 @@ module.exports = {
     'no-empty': [ 2, { allowEmptyCatch: true }],
     'no-sequences': 2,
     'no-trailing-spaces': 0,
+
+    'no-unused-vars': [
+      1,
+      {
+        argsIgnorePattern: '^_',
+        varsIgnorePattern: '^_',
+        caughtErrorsIgnorePattern: '^_',
+      },
+    ],
+
     'no-use-before-define': [ 0, { functions: false, classes: false }],
 
     quotes: [
@@ -57,6 +70,13 @@ module.exports = {
     ],
 
     semi: [ 2, 'never' ],
+
+    'sort-imports': [
+      'error',
+      {
+        ignoreDeclarationSort: true,
+      },
+    ],
 
     'space-in-parens': [
       1,
