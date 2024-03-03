@@ -8,6 +8,7 @@
   "publishConfig": {
     "@bad-software:registry": "https://npm.pkg.github.com"
   },
+  "packageManager": "yarn@4.1.0",
   "peerDependencies": {
     "eslint": ">= 8",
     "eslint-plugin-jsdoc": "*",
