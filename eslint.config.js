@@ -7,8 +7,14 @@ import ts from 'typescript-eslint'
 
 export default ts.config(
   js.configs.recommended,
-  jsdoc.configs[ 'flat/recommended' ],
+
+  {
+    ...jsdoc.configs[ 'flat/recommended' ],
+    files: [ '**/*.js', '**/*.cjs', '**/*.mjs' ]
+  },
+
   ...ts.configs.recommended,
+
   {
     plugins: { promise },
     rules: promise.configs.recommended.rules,
