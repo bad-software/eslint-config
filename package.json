@@ -4,7 +4,6 @@
   "main": "eslint.config.js",
   "type": "module",
   "repository": "https://github.com/bad-software/eslint-config",
-  "author": "soulofmischief <30357883+soulofmischief@users.noreply.github.com>",
   "license": "MIT",
   "publishConfig": {
     "@bad-software:registry": "https://npm.pkg.github.com"
