@@ -1,7 +1,8 @@
 {
   "name": "@bad-software/eslint-config",
   "version": "0.3.1",
-  "main": "index.js",
+  "main": "eslint.config.js",
+  "type": "module",
   "repository": "https://github.com/bad-software/eslint-config",
   "author": "soulofmischief <30357883+soulofmischief@users.noreply.github.com>",
   "license": "MIT",
@@ -10,8 +11,15 @@
   },
   "packageManager": "yarn@4.1.0",
   "peerDependencies": {
-    "eslint": ">= 8",
-    "eslint-plugin-jsdoc": "*",
-    "eslint-plugin-promise": "*"
+    "eslint": "^8.57.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "8.57.0",
+    "eslint": "8.57.0",
+    "eslint-plugin-jsdoc": "48.2.0",
+    "eslint-plugin-promise": "6.1.1",
+    "globals": "14.0.0",
+    "typescript": "5.3.3",
+    "typescript-eslint": "7.1.0"
   }
 }
