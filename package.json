@@ -5,9 +5,6 @@
   "type": "module",
   "repository": "https://github.com/bad-software/eslint-config",
   "license": "MIT",
-  "publishConfig": {
-    "@bad-software:registry": "https://npm.pkg.github.com"
-  },
   "scripts": {
     "upgrade": "yarn dlx npm-check-updates -u; yarn"
   },
