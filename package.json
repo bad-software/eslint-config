@@ -9,6 +9,9 @@
   "publishConfig": {
     "@bad-software:registry": "https://npm.pkg.github.com"
   },
+  "scripts": {
+    "upgrade": "yarn dlx npm-check-updates -u; yarn"
+  },
   "packageManager": "yarn@4.1.0",
   "peerDependencies": {
     "eslint": "^8.57.0"
