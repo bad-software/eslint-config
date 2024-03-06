@@ -21,17 +21,6 @@ jobs:
         run: >-
             echo "newVersion=$([ "$(npm view @bad-software/eslint-config version)" != "$PACKAGE_VERSION" ] && echo 'true' || echo 'false' )" >> "$GITHUB_OUTPUT"
 
-  githubRelease:
-    runs-on: ubuntu-latest
-    needs: checkVersion
-    if: needs.checkVersion.outputs.newVersion == 'true'
-    steps:
-      - uses: actions/checkout@v4
-      - run: gh release create -t "v${PACKAGE_VERSION}" "v${PACKAGE_VERSION}" --generate-notes
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PACKAGE_VERSION: ${{ needs.checkVersion.outputs.version }}
-
   npmPublish:
     runs-on: ubuntu-latest
     needs: checkVersion
@@ -51,3 +40,14 @@ jobs:
       - run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  githubRelease:
+    runs-on: ubuntu-latest
+    needs: checkVersion
+    if: needs.checkVersion.outputs.newVersion == 'true'
+    steps:
+      - uses: actions/checkout@v4
+      - run: gh release create -t "v${PACKAGE_VERSION}" "v${PACKAGE_VERSION}" --generate-notes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PACKAGE_VERSION: ${{ needs.checkVersion.outputs.version }}
