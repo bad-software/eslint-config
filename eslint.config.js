@@ -9,8 +9,7 @@ export default ts.config(
   js.configs.recommended,
 
   {
-    ...jsdoc.configs[ 'flat/recommended' ],
-    files: [ '**/*.js', '**/*.cjs', '**/*.mjs' ]
+    ...jsdoc.configs[ 'flat/recommended-typescript' ],
   },
 
   ...ts.configs.recommended,
