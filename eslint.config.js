@@ -92,11 +92,5 @@ export default ts.config(
         { exceptions: [ '{}', '()', '[]', 'empty' ]}
       ],
     },
-
-    settings: {
-      'import/ignore': [
-        'node_modules'
-      ]
-    }
   },
 )
