@@ -21,12 +21,12 @@ export default ts.config(
     }
   },
 
-  ...ts.configs.recommended,
-
   {
     plugins: { promise },
     rules: promise.configs.recommended.rules,
   },
+
+  ...ts.configs.recommended,
 
   {
     languageOptions: {
