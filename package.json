@@ -1,6 +1,6 @@
 {
   "name": "@bad-software/eslint-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "eslint.config.js",
   "type": "module",
   "repository": "https://github.com/bad-software/eslint-config",
@@ -11,9 +11,9 @@
   "packageManager": "yarn@4.1.0",
   "dependencies": {
     "@eslint/js": "8.57.0",
-    "globals": "14.0.0",
     "eslint-plugin-jsdoc": "48.2.0",
-    "eslint-plugin-promise": "6.1.1"
+    "eslint-plugin-promise": "6.1.1",
+    "globals": "14.0.0"
   },
   "peerDependencies": {
     "eslint": "^8.57.0"
