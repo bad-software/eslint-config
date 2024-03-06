@@ -8,9 +8,7 @@ import ts from 'typescript-eslint'
 export default ts.config(
   js.configs.recommended,
 
-  {
-    ...jsdoc.configs[ 'flat/recommended-typescript' ],
-  },
+  jsdoc.configs[ 'flat/recommended-typescript' ],
 
   ...ts.configs.recommended,
 
