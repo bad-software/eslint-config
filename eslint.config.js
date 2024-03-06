@@ -76,6 +76,8 @@ export default ts.config(
       'no-sequences': 2,
       'no-trailing-spaces': 0,
 
+      'no-unused-vars': 0,
+
       /*'@typescript-eslint/no-unused-vars': [
         1,
         {
