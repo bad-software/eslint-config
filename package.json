@@ -1,6 +1,6 @@
 {
   "name": "@bad-software/eslint-config",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "main": "eslint.config.js",
   "type": "module",
   "repository": "https://github.com/bad-software/eslint-config",
