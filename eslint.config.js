@@ -5,10 +5,21 @@ import globals from 'globals'
 import ts from 'typescript-eslint'
 
 
+const JSDocConfig = jsdoc.configs[ 'flat/recommended-typescript' ]
+
+
 export default ts.config(
   js.configs.recommended,
 
-  jsdoc.configs[ 'flat/recommended-typescript' ],
+  {
+    ...JSDocConfig,
+
+    rules: {
+      ...JSDocConfig.rules,
+      'jsdoc/require-param': 0,
+      'jsdoc/require-returns': 0,
+    }
+  },
 
   ...ts.configs.recommended,
 
