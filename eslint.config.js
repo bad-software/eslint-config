@@ -76,14 +76,14 @@ export default ts.config(
       'no-sequences': 2,
       'no-trailing-spaces': 0,
 
-      'no-unused-vars': [
+      /*'@typescript-eslint/no-unused-vars': [
         1,
         {
           argsIgnorePattern: '^_',
           varsIgnorePattern: '^_',
           caughtErrorsIgnorePattern: '^_',
         },
-      ],
+      ],*/
 
       'no-use-before-define': [ 0, { functions: false, classes: false }],
 
