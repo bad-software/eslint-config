@@ -39,13 +39,6 @@ export default ts.config(
 
     ignores: [ '**/node_modules/**', '**/old_packages/**' ],
 
-    /*parserOptions: {
-      ecmaFeatures: { jsx: true },
-      ecmaVersion: 2022,
-      requireConfigFile: false,
-      sourceType: 'module'
-    },*/
-
     rules: {
       'func-names': 0,
 
@@ -75,15 +68,6 @@ export default ts.config(
       'no-empty': [ 2, { allowEmptyCatch: true }],
       'no-sequences': 2,
       'no-trailing-spaces': 0,
-
-      /*'@typescript-eslint/no-unused-vars': [
-        1,
-        {
-          argsIgnorePattern: '^_',
-          varsIgnorePattern: '^_',
-          caughtErrorsIgnorePattern: '^_',
-        },
-      ],*/
 
       'no-use-before-define': [ 0, { functions: false, classes: false }],
 
