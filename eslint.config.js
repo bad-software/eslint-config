@@ -18,7 +18,13 @@ export default ts.config(
       ...JSDocConfig.rules,
       'jsdoc/require-param': 0,
       'jsdoc/require-returns': 0,
-    }
+    },
+
+    settings: {
+      jsdoc: {
+        publicFunctionsOnly: 'exports',
+      },
+    },
   },
 
   {
