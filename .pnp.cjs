@@ -28,7 +28,6 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@eslint/js", "npm:9.0.0"],\
           ["eslint", "npm:9.0.0"],\
-          ["eslint-plugin-jsdoc", "virtual:0c2e0f9397053389f7f45194426c670099ec014706c7033d531a1b9b688f2367c1186e75a03f3a0d97aac3bc839e44c9b090d9dc195efadf7c47b9434ad62987#npm:48.2.3"],\
           ["eslint-plugin-promise", "virtual:0c2e0f9397053389f7f45194426c670099ec014706c7033d531a1b9b688f2367c1186e75a03f3a0d97aac3bc839e44c9b090d9dc195efadf7c47b9434ad62987#npm:6.1.1"],\
           ["globals", "npm:15.0.0"],\
           ["typescript", "patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=d69c25"],\
@@ -53,25 +52,12 @@ const RAW_RUNTIME_STATE =
           ["@bad-software/eslint-config", "workspace:."],\
           ["@eslint/js", "npm:9.0.0"],\
           ["eslint", "npm:9.0.0"],\
-          ["eslint-plugin-jsdoc", "virtual:0c2e0f9397053389f7f45194426c670099ec014706c7033d531a1b9b688f2367c1186e75a03f3a0d97aac3bc839e44c9b090d9dc195efadf7c47b9434ad62987#npm:48.2.3"],\
           ["eslint-plugin-promise", "virtual:0c2e0f9397053389f7f45194426c670099ec014706c7033d531a1b9b688f2367c1186e75a03f3a0d97aac3bc839e44c9b090d9dc195efadf7c47b9434ad62987#npm:6.1.1"],\
           ["globals", "npm:15.0.0"],\
           ["typescript", "patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=d69c25"],\
           ["typescript-eslint", "virtual:0c2e0f9397053389f7f45194426c670099ec014706c7033d531a1b9b688f2367c1186e75a03f3a0d97aac3bc839e44c9b090d9dc195efadf7c47b9434ad62987#npm:7.6.0"]\
         ],\
         "linkType": "SOFT"\
-      }]\
-    ]],\
-    ["@es-joy/jsdoccomment", [\
-      ["npm:0.42.0", {\
-        "packageLocation": "./.yarn/cache/@es-joy-jsdoccomment-npm-0.42.0-a28de67572-a8122762d2.zip/node_modules/@es-joy/jsdoccomment/",\
-        "packageDependencies": [\
-          ["@es-joy/jsdoccomment", "npm:0.42.0"],\
-          ["comment-parser", "npm:1.4.1"],\
-          ["esquery", "npm:1.5.0"],\
-          ["jsdoc-type-pratt-parser", "npm:4.0.0"]\
-        ],\
-        "linkType": "HARD"\
       }]\
     ]],\
     ["@eslint-community/eslint-utils", [\
@@ -488,15 +474,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["are-docs-informative", [\
-      ["npm:0.0.2", {\
-        "packageLocation": "./.yarn/cache/are-docs-informative-npm-0.0.2-92d10d3088-f0326981bd.zip/node_modules/are-docs-informative/",\
-        "packageDependencies": [\
-          ["are-docs-informative", "npm:0.0.2"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["argparse", [\
       ["npm:2.0.1", {\
         "packageLocation": "./.yarn/cache/argparse-npm-2.0.1-faff7999e6-c5640c2d89.zip/node_modules/argparse/",\
@@ -553,15 +530,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["builtin-modules", [\
-      ["npm:3.3.0", {\
-        "packageLocation": "./.yarn/cache/builtin-modules-npm-3.3.0-db4f3d32de-2cb3448b4f.zip/node_modules/builtin-modules/",\
-        "packageDependencies": [\
-          ["builtin-modules", "npm:3.3.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["callsites", [\
       ["npm:3.1.0", {\
         "packageLocation": "./.yarn/cache/callsites-npm-3.1.0-268f989910-fff9227740.zip/node_modules/callsites/",\
@@ -597,15 +565,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/color-name-npm-1.1.4-025792b0ea-a1a3f91415.zip/node_modules/color-name/",\
         "packageDependencies": [\
           ["color-name", "npm:1.1.4"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["comment-parser", [\
-      ["npm:1.4.1", {\
-        "packageLocation": "./.yarn/cache/comment-parser-npm-1.4.1-f416dc95e4-d6c4be3f5b.zip/node_modules/comment-parser/",\
-        "packageDependencies": [\
-          ["comment-parser", "npm:1.4.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -721,37 +680,6 @@ const RAW_RUNTIME_STATE =
           ["optionator", "npm:0.9.3"],\
           ["strip-ansi", "npm:6.0.1"],\
           ["text-table", "npm:0.2.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["eslint-plugin-jsdoc", [\
-      ["npm:48.2.3", {\
-        "packageLocation": "./.yarn/cache/eslint-plugin-jsdoc-npm-48.2.3-87dcb93322-e755923d96.zip/node_modules/eslint-plugin-jsdoc/",\
-        "packageDependencies": [\
-          ["eslint-plugin-jsdoc", "npm:48.2.3"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:0c2e0f9397053389f7f45194426c670099ec014706c7033d531a1b9b688f2367c1186e75a03f3a0d97aac3bc839e44c9b090d9dc195efadf7c47b9434ad62987#npm:48.2.3", {\
-        "packageLocation": "./.yarn/__virtual__/eslint-plugin-jsdoc-virtual-ebb4551e67/0/cache/eslint-plugin-jsdoc-npm-48.2.3-87dcb93322-e755923d96.zip/node_modules/eslint-plugin-jsdoc/",\
-        "packageDependencies": [\
-          ["eslint-plugin-jsdoc", "virtual:0c2e0f9397053389f7f45194426c670099ec014706c7033d531a1b9b688f2367c1186e75a03f3a0d97aac3bc839e44c9b090d9dc195efadf7c47b9434ad62987#npm:48.2.3"],\
-          ["@es-joy/jsdoccomment", "npm:0.42.0"],\
-          ["@types/eslint", null],\
-          ["are-docs-informative", "npm:0.0.2"],\
-          ["comment-parser", "npm:1.4.1"],\
-          ["debug", "virtual:1fbcfb08c5d52a858312341bd4ee126398f5102062ddc20778889b8e87c7c918c9e918f984f7b028b1a06600430e692eb1b53f676aa093491636ee0bb17933ff#npm:4.3.4"],\
-          ["escape-string-regexp", "npm:4.0.0"],\
-          ["eslint", "npm:9.0.0"],\
-          ["esquery", "npm:1.5.0"],\
-          ["is-builtin-module", "npm:3.2.1"],\
-          ["semver", "npm:7.6.0"],\
-          ["spdx-expression-parse", "npm:4.0.0"]\
-        ],\
-        "packagePeers": [\
-          "@types/eslint",\
-          "eslint"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1053,16 +981,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["is-builtin-module", [\
-      ["npm:3.2.1", {\
-        "packageLocation": "./.yarn/cache/is-builtin-module-npm-3.2.1-2f92a5d353-5a66937a03.zip/node_modules/is-builtin-module/",\
-        "packageDependencies": [\
-          ["is-builtin-module", "npm:3.2.1"],\
-          ["builtin-modules", "npm:3.3.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["is-extglob", [\
       ["npm:2.1.1", {\
         "packageLocation": "./.yarn/cache/is-extglob-npm-2.1.1-0870ea68b5-5487da3569.zip/node_modules/is-extglob/",\
@@ -1115,15 +1033,6 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["js-yaml", "npm:4.1.0"],\
           ["argparse", "npm:2.0.1"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["jsdoc-type-pratt-parser", [\
-      ["npm:4.0.0", {\
-        "packageLocation": "./.yarn/cache/jsdoc-type-pratt-parser-npm-4.0.0-7b035921c4-b23ef7bbbe.zip/node_modules/jsdoc-type-pratt-parser/",\
-        "packageDependencies": [\
-          ["jsdoc-type-pratt-parser", "npm:4.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1431,35 +1340,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/slash-npm-3.0.0-b87de2279a-e18488c6a4.zip/node_modules/slash/",\
         "packageDependencies": [\
           ["slash", "npm:3.0.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["spdx-exceptions", [\
-      ["npm:2.5.0", {\
-        "packageLocation": "./.yarn/cache/spdx-exceptions-npm-2.5.0-718ed4b7d6-37217b7762.zip/node_modules/spdx-exceptions/",\
-        "packageDependencies": [\
-          ["spdx-exceptions", "npm:2.5.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["spdx-expression-parse", [\
-      ["npm:4.0.0", {\
-        "packageLocation": "./.yarn/cache/spdx-expression-parse-npm-4.0.0-1c2f5caf51-965c487e77.zip/node_modules/spdx-expression-parse/",\
-        "packageDependencies": [\
-          ["spdx-expression-parse", "npm:4.0.0"],\
-          ["spdx-exceptions", "npm:2.5.0"],\
-          ["spdx-license-ids", "npm:3.0.17"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["spdx-license-ids", [\
-      ["npm:3.0.17", {\
-        "packageLocation": "./.yarn/cache/spdx-license-ids-npm-3.0.17-49dca9aba1-ddf9477b5a.zip/node_modules/spdx-license-ids/",\
-        "packageDependencies": [\
-          ["spdx-license-ids", "npm:3.0.17"]\
         ],\
         "linkType": "HARD"\
       }]\

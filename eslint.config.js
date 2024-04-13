@@ -1,21 +1,21 @@
 import js from '@eslint/js'
-import jsdoc from 'eslint-plugin-jsdoc'
+// import jsdoc from 'eslint-plugin-jsdoc'
 import promise from 'eslint-plugin-promise'
 import globals from 'globals'
 import ts from 'typescript-eslint'
 
 
-const JSDocConfig = jsdoc.configs[ 'flat/recommended-typescript' ]
+// const JSDocConfig = jsdoc.configs[ 'flat/recommended-typescript' ]
 
 
 export default ts.config(
   js.configs.recommended,
 
   {
-    ...JSDocConfig,
+    // ...JSDocConfig,
 
     rules: {
-      ...JSDocConfig.rules,
+      // ...JSDocConfig.rules,
       'jsdoc/require-param': 0,
       'jsdoc/require-returns': 0,
     },
