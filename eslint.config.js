@@ -11,7 +11,7 @@ import ts from 'typescript-eslint'
 export default ts.config(
   js.configs.recommended,
 
-  {
+  /*{
     // ...JSDocConfig,
 
     rules: {
@@ -25,7 +25,7 @@ export default ts.config(
         publicFunctionsOnly: 'exports',
       },
     },
-  },
+  },*/
 
   {
     plugins: { promise },
